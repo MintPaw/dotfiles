@@ -1,0 +1,12 @@
+{
+	"auto_complete": false,
+	"auto_match_enabled": false,
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4
+}
