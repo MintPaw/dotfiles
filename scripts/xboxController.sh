@@ -1,0 +1,1 @@
+sudo xboxdrv --device-by-id 24c6:531a --type xbox360 --mimic-xpad --detach-kernel-driver --silent

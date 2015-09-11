@@ -1,0 +1,1 @@
+sudo mount -t cifs //userhost.nmt.edu/accounts/j/jsande00 tcc -o username=jsande00

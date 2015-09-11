@@ -1,0 +1,8 @@
+Steam to tray:
+On line ~2 of /usr/bin/steam add "export STEAM_FRAME_FORCE_CLOSE=1"
+
+List printers:
+lpstat -a
+
+Print:
+lp -d <printer_name> <files>
