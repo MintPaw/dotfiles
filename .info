@@ -6,3 +6,6 @@ lpstat -a
 
 Print:
 lp -d <printer_name> <files>
+
+Stop pc speaker:
+echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
