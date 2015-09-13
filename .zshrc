@@ -13,5 +13,6 @@ compinit
 
 alias ls='ls --color=auto'
 alias sub='subl3'
+alias startx='startx --dpi 96'
 
 if [ "$TMUX" = "" ]; then tmux; fi
