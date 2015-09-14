@@ -13,6 +13,7 @@ compinit
 
 alias ls='ls --color=auto'
 alias sub='subl3'
-alias startx='startx --dpi 96'
+alias wifi_home='bash ~/scripts/connect_home_wifi.sh'
+alias wifi_nmt='bash ~/scripts/connect_nmt_wifi.sh'
 
 if [ "$TMUX" = "" ]; then tmux; fi
