@@ -83,6 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# MintPaw
+
+TERM=xterm
+
 alias ls='ls --color=auto'
 alias sub='subl3'
 alias wifi_home='bash ~/scripts/connect_home_wifi.sh'
