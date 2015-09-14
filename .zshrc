@@ -85,11 +85,15 @@ source $ZSH/oh-my-zsh.sh
 
 # MintPaw
 
+git config --global push.default simple
 TERM=xterm
 
 alias ls='ls --color=auto'
-alias sub='subl > /dev/null 2>&1 &'
 alias wifi_home='bash ~/scripts/connect_home_wifi.sh'
 alias wifi_nmt='bash ~/scripts/connect_nmt_wifi.sh'
+
+sub() {
+	subl $1 > /dev/null 2>&1 &
+}
 
 if [ "$TMUX" = "" ]; then tmux; fi
