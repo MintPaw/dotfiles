@@ -5,7 +5,7 @@ export ZSH=/home/mintpaw/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="smt"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -86,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # MintPaw
 
 git config --global push.default simple
-git config credential.helper 'cache --timeout=9999'
+git config --global credential.helper 'cache --timeout=9999'
 TERM=xterm
 
 alias ls='ls --color=auto'
