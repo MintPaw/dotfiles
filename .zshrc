@@ -86,11 +86,13 @@ source $ZSH/oh-my-zsh.sh
 # MintPaw
 
 git config --global push.default simple
+git config credential.helper 'cache --timeout=9999'
 TERM=xterm
 
 alias ls='ls --color=auto'
 alias wifi_home='bash ~/scripts/connect_home_wifi.sh'
 alias wifi_nmt='bash ~/scripts/connect_nmt_wifi.sh'
+alias lock='i3lock'
 
 sub() {
 	subl $1 > /dev/null 2>&1 &
