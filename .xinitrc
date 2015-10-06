@@ -1,5 +1,4 @@
-# Set X colours
-xrdb -merge ~/.Xresources
+amixer sset Master mute
 xrandr --dpi 96
 xbindkeys
 TERMINAL=gnome-terminal
