@@ -6,3 +6,6 @@
 
 "amixer sset Master toggle"
     m:0x0 + c:121
+
+"./tools/imgur-screenshot/imgur-screenshot.sh --open false --auto-delete 60"
+    m:0x0 + c:107
