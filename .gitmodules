@@ -1,4 +1,0 @@
-[submodule "jomo/imgur-screenshot"]
-    path = jomo/imgur-screenshot
-    url = git://github.com/jomo/imgur-screenshot.git
-    ignore = dirty
