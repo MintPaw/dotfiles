@@ -87,8 +87,11 @@ source $ZSH/oh-my-zsh.sh
 
 git config --global push.default simple
 git config --global credential.helper 'cache --timeout=9999'
+export LD_LIBRARY_PATH=~/haxe/neko-2.0.0-linux/
 TERM=xterm
 
+alias haxe='~/haxe/haxe-3.2.0/haxe'
+alias haxelib='~/haxe/haxe-3.2.0/haxelib'
 alias ls='ls --color=auto'
 alias wifi_home='bash ~/scripts/connect_home_wifi.sh'
 alias wifi_nmt='bash ~/scripts/connect_nmt_wifi.sh'
