@@ -2,6 +2,6 @@
 # ~/.bash_profile
 #
 
-rm .config/sublime-text-2/Settings/Auto\ Save\ Session.sublime_session
+bash sh/auto/gnomeColours.sh
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
