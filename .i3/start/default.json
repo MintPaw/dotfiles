@@ -10,10 +10,10 @@
        "y": 18
     },
     "name": "Google Keep - Google Chrome",
-    "percent": 0.5,
+    "percent": 0.6,
     "swallows": [
        {
-       "class": "^google\\-chrome\\-beta$"
+           "class": "^google\\-chrome\\-beta$"
        }
     ],
     "type": "con"
@@ -37,11 +37,11 @@
                "x": 0,
                "y": 0
             },
-            "name": "i3-save-tree > .i3/start/default.json - 1:zsh",
+            "name": "Terminal",
             "percent": 0.5,
             "swallows": [
                {
-               "class": "^Gnome\\-terminal$"
+                   "class": "^Xfce4\\-terminal$"
                }
             ],
             "type": "con"
