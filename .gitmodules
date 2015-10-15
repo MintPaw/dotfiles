@@ -13,3 +13,6 @@
 [submodule "tools/imgur-screenshot"]
 	path = tools/imgur-screenshot
 	url = https://github.com/jomo/imgur-screenshot
+[submodule ".vim/bundle/gundo"]
+	path = .vim/bundle/gundo
+	url = https://github.com/sjl/gundo.vim.git
