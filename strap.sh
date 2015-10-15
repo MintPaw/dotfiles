@@ -1,1 +1,1 @@
-rsync -av  --exclude='.git' --exclude='strap.sh' ~/dotfiles/ ~
+rsync -av  --exclude='.git*' --exclude='strap.sh' ~/dotfiles/ ~
