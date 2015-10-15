@@ -27,6 +27,7 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # MintPaw
 export EDITOR='vim'
 export TERM=xterm
+export LD_LIBRARY_PATH=~/tools/neko
 
 git config --global push.default simple
 git config --global credential.helper 'cache --timeout=9999'
