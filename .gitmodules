@@ -10,3 +10,6 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "tools/imgur-screenshot"]
+	path = tools/imgur-screenshot
+	url = https://github.com/jomo/imgur-screenshot
