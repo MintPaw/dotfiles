@@ -93,8 +93,8 @@ TERM=xterm
 # alias haxe='~/haxe/haxe-3.2.0/haxe'
 # alias haxelib='~/haxe/haxe-3.2.0/haxelib'
 alias ls='ls --color=auto'
-alias wifi_home='bash ~/scripts/connect_home_wifi.sh'
-alias wifi_nmt='bash ~/scripts/connect_nmt_wifi.sh'
+alias wifi_home='bash ~/sh/connect_home_wifi.sh'
+alias wifi_nmt='bash ~/sh/connect_nmt_wifi.sh'
 alias lock='i3lock'
 
 sub() {
