@@ -28,6 +28,8 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 export EDITOR='vim'
 export TERM=xterm
 export LD_LIBRARY_PATH=~/tools/neko
+export PATH=$PATH:~/tools/haxe
+export PATH=$PATH:~/tools/neko
 
 git config --global push.default simple
 git config --global credential.helper 'cache --timeout=9999'
