@@ -10,7 +10,6 @@ set cursorline
 set wildmenu
 
 set incsearch
-set hlsearch
 
 set foldenable
 set foldmethod=indent
