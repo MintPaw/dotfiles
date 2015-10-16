@@ -1,1 +1,1 @@
-netctl start wlp3s0b1-MintPaw
+netctl start wlp3s0b1-MintPaw_DD
