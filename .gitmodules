@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/vitality"]
 	path = .vim/bundle/vitality
 	url = https://github.com/sjl/vitality.vim.git
+[submodule ".vim/bundle/unicode"]
+	path = .vim/bundle/unicode
+	url = https://github.com/chrisbra/unicode.vim.git

@@ -1,4 +1,6 @@
 hi CursorLine term=bold cterm=bold guibg=Grey40
+hi SpecialKey ctermfg=00 guifg=#649A9A
+hi NonText ctermfg=00 guifg=#649A9A
 let mapleader = "-"
 
 set number
@@ -8,6 +10,7 @@ set smartindent
 set showcmd
 set cursorline
 set wildmenu
+set autowrite
 
 set incsearch
 
@@ -20,6 +23,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set colorcolumn=81
+
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
 
 imap jj <Esc>
 nnoremap <leader><space> :nohlsearch<CR>
