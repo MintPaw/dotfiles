@@ -45,4 +45,6 @@ sub() {
 	subl $1 > /dev/null 2>&1 &
 }
 
-if [ "$TMUX" = "" ]; then tmux; fi
+if [ "$DISPLAY" ]; then
+	if [ "$TMUX" = "" ]; then tmux; fi
+fi

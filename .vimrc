@@ -28,6 +28,7 @@ set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set list
 
 imap jj <Esc>
+ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap gV `[v`]
 nnoremap <leader>u :GundoToggle<CR>
