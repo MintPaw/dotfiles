@@ -5,6 +5,7 @@ let mapleader = "-"
 
 set number
 set showmatch
+set spelllang=en_us
 
 set smartindent
 set showcmd
@@ -32,6 +33,8 @@ ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
 nnoremap <leader><space> :nohlsearch<CR>
 nnoremap gV `[v`]
 nnoremap <leader>u :GundoToggle<CR>
+nnoremap j gj
+nnoremap k gk
 
 set backup
 set backupdir=/tmp
