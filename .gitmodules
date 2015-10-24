@@ -28,6 +28,3 @@
 [submodule ".vim/bundle/selection"]
 	path = .vim/bundle/selection
 	url = https://github.com/arecarn/selection.vim.git
-[submodule ".vim/bundle/crunch"]
-	path = .vim/bundle/crunch
-	url = https://github.com/arecarn/crunch.vim.git
