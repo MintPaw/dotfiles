@@ -1,8 +1,8 @@
 [Configuration]
-ColorCursor=#8b8b87879292
-ColorForeground=#8b8b87879292
-ColorBackground=#191917171c1c
-ColorPalette=#191917171c1c;#bebe46467878;#2a2a92929292;#a0a06e6e3b3b;#57576d6ddbdb;#95955a5ae7e7;#39398b8bc6c6;#8b8b87879292;#65655f5f6d6d;#bebe46467878;#2a2a92929292;#a0a06e6e3b3b;#57576d6ddbdb;#95955a5ae7e7;#39398b8bc6c6;#efefececf4f4
+ColorCursor=#c0c5ce
+ColorForeground=#c0c5ce
+ColorBackground=#2b303b
+ColorPalette=#2b303b;#bf616a;#a3be8c;#ebcb8b;#8fa1b3;#b48ead;#96b5b4;#c0c5ce;#65737e;#bf616a;#a3be8c;#ebcb8b;#8fa1b3;#b48ead;#96b5b4;#eff1f5
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=FALSE
