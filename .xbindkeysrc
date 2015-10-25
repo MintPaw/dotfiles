@@ -1,10 +1,10 @@
-"amixer sset Master 10+"
+"amixer sset Master 10+; amixer sset PCM 10+"
     m:0x0 + c:123
 
-"amixer sset Master 10-"
+"amixer sset Master 10-; amixer sset PCM 10-"
     m:0x0 + c:122
 
-"amixer sset Master toggle"
+	"amixer sset Master toggle; amixer sset PCM toggle"
     m:0x0 + c:121
 
 "./tools/imgur-screenshot/imgur-screenshot.sh --open false --auto-delete 60"
