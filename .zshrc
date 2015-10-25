@@ -17,14 +17,15 @@ COMPLETION_WAITING_DOTS="true"
 
 plugins=(git)
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
-
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
 export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # MintPaw
+powerline-daemon -q
+. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
+
 export EDITOR='vim'
 export TERM=xterm
 export LD_LIBRARY_PATH=~/tools/neko
