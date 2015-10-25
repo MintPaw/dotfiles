@@ -1,6 +1,7 @@
 hi CursorLine term=bold cterm=bold guibg=Grey40
 hi SpecialKey ctermfg=00 guifg=#649A9A
 hi NonText ctermfg=00 guifg=#649A9A
+hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 let mapleader = "-"
 
 set number
