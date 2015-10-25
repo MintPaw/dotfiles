@@ -26,7 +26,7 @@ set shiftwidth=2
 set colorcolumn=81
 
 set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
-set list
+set nolist
 
 imap jj <Esc>
 ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
