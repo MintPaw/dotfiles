@@ -36,6 +36,10 @@ nnoremap gV `[v`]
 nnoremap <leader>u :GundoToggle<CR>
 nnoremap j gj
 nnoremap k gk
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
 
 set backup
 set backupdir=/tmp
