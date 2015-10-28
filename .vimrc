@@ -13,6 +13,7 @@ set showcmd
 set cursorline
 set wildmenu
 set autowrite
+set timeoutlen=1000 ttimeoutlen=0
 
 set incsearch
 
