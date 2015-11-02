@@ -23,8 +23,8 @@ export ARCHFLAGS="-arch x86_64"
 export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # MintPaw
-powerline-daemon -q
-. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
+# powerline-daemon -q
+# . /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
 
 export EDITOR='vim'
 export TERM=xterm
