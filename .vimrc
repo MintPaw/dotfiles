@@ -41,6 +41,9 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+ab \\real\\ ℝ
+ab \\forall\\ ∀
+ab \\in\\ ∈
 
 set backup
 set backupdir=/tmp
