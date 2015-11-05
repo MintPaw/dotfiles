@@ -1,10 +1,11 @@
 mkdir -p ~/tools/haxe/lib
 mkdir -p ~/tools/haxe/libgit
 
-libs=("openfl" "lime" "format" "hxcpp" "flixel" 
+libs=("openfl" "openfl-samples" "lime" "format" "hxcpp" "flixel" 
 	"flixel-addons" "flixel-ui" "nape")
 
 libPaths=("https://github.com/openfl/openfl.git"
+	"https://github.com/openfl/openfl-samples.git"
 	"https://github.com/openfl/lime.git"
 	"https://github.com/HaxeFoundation/format.git"
 	"https://github.com/HaxeFoundation/hxcpp.git"
