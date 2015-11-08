@@ -44,6 +44,8 @@ noremap <Right> <Nop>
 ab \\real\\ ℝ
 ab \\forall\\ ∀
 ab \\in\\ ∈
+ab \\ep\\ ϵ
+ab \\null\\ ∅
 
 set backup
 set backupdir=/tmp
