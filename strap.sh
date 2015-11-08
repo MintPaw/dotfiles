@@ -10,7 +10,8 @@ paths=(".oh-my-zsh"
 	".vim/bundle/unicode"
 	".vim/bundle/vim-multiple-cursors"
 	".vim/bundle/selection"
-	".vim/bundle/crunch")
+	".vim/bundle/crunch"
+	".vim/bundle/tabular")
 	
 gitUrls=("https://github.com/robbyrussell/oh-my-zsh.git"
 	"https://github.com/kien/ctrlp.vim.git"
@@ -22,13 +23,14 @@ gitUrls=("https://github.com/robbyrussell/oh-my-zsh.git"
 	"https://github.com/chrisbra/unicode.vim.git"
 	"https://github.com/terryma/vim-multiple-cursors.git"
 	"https://github.com/arecarn/selection.vim.git"
-	"https://github.com/arecarn/crunch.vim.git")
+	"https://github.com/arecarn/crunch.vim.git"
+	"https://github.com/godlygeek/tabular.git")
 
 for ((i=0; i<${#paths[@]}; i++))
 do
 	echo ${paths[i]}
 
-	if [ ! -d ~/tools/haxe/libgit/${paths[i]} ]
+	if [ ! -d ~/${paths[i]} ]
 	then
 		git clone --recursive ${gitUrls[i]} ~/${paths[i]}
 	else
