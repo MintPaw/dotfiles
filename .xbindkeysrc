@@ -7,5 +7,5 @@
 	"amixer sset Master toggle; amixer sset PCM toggle"
     m:0x0 + c:121
 
-"./tools/imgur-screenshot/imgur-screenshot.sh --open false --auto-delete 60"
+"./tools/imgur-screenshot/imgur-screenshot.sh --open false"
     m:0x0 + c:107
