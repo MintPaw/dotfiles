@@ -32,20 +32,30 @@ set nolist
 
 imap jj <Esc>
 ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
-nnoremap <leader><space> :nohlsearch<CR>
-nnoremap gV `[v`]
-nnoremap <leader>u :GundoToggle<CR>
-nnoremap j gj
-nnoremap k gk
-noremap <Up> <Nop>
-noremap <Down> <Nop>
-noremap <Left> <Nop>
-noremap <Right> <Nop>
+nmap <leader><space> :nohlsearch<CR>
+nmap gV `[v`]
+nmap <leader>u :GundoToggle<CR>
+nmap j gj
+nmap k gk
+nmap <Up> <Nop>
+nmap <Down> <Nop>
+nmap <Left> <Nop>
+nmap <Right> <Nop>
+imap <Up> <Nop>
+imap <Down> <Nop>
+imap <Left> <Nop>
+imap <Right> <Nop>
+imap <C-j> <C-n>
+imap <C-k> <C-p>
 ab \\real\\ ℝ
 ab \\forall\\ ∀
 ab \\in\\ ∈
 ab \\ep\\ ϵ
 ab \\null\\ ∅
+ab \\subeq\\ ⊆
+ab \\sub\\ ⊂
+ab \\smallomega\\ ω
+ab \\theta\\ θ
 
 set backup
 set backupdir=/tmp
@@ -67,3 +77,5 @@ endfunc
 
 execute pathogen#infect()
 Helptags
+
+g:C_Ctrl_j = 'off'
