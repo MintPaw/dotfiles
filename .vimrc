@@ -77,5 +77,3 @@ endfunc
 
 execute pathogen#infect()
 Helptags
-
-g:C_Ctrl_j = 'off'
