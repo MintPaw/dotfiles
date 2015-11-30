@@ -11,8 +11,7 @@ paths=(".oh-my-zsh"
 	".vim/bundle/vim-multiple-cursors"
 	".vim/bundle/selection"
 	".vim/bundle/crunch"
-	".vim/bundle/tabular"
-	".vim/bundle/semantic-highlight")
+	".vim/bundle/tabular")
 	
 gitUrls=("https://github.com/robbyrussell/oh-my-zsh.git"
 	"https://github.com/kien/ctrlp.vim.git"
@@ -25,8 +24,7 @@ gitUrls=("https://github.com/robbyrussell/oh-my-zsh.git"
 	"https://github.com/terryma/vim-multiple-cursors.git"
 	"https://github.com/arecarn/selection.vim.git"
 	"https://github.com/arecarn/crunch.vim.git"
-	"https://github.com/godlygeek/tabular.git"
-	"https://github.com/jaxbot/semantic-highlight.vim.git")
+	"https://github.com/godlygeek/tabular.git")
 
 for ((i=0; i<${#paths[@]}; i++))
 do
