@@ -2,8 +2,8 @@ hi CursorLine term=bold cterm=bold guibg=Grey40
 hi SpecialKey ctermfg=00 guifg=#649A9A
 hi NonText ctermfg=00 guifg=#649A9A
 hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
-hi IndentGuidesOdd ctermbg=233
-hi IndentGuidesEven ctermbg=234
+hi IndentGuidesOdd ctermbg=235
+hi IndentGuidesEven ctermbg=236
 let mapleader = "-"
 let g:indent_guides_auto_colors = 0
 
@@ -89,3 +89,4 @@ com! DiffSaved call s:DiffWithSaved()
 
 execute pathogen#infect()
 Helptags
+IndentGuidesEnable
