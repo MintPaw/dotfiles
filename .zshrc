@@ -27,7 +27,7 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # . /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh
 
 export EDITOR='vim'
-export TERM=xterm
+export TERM='xterm-256color'
 export LD_LIBRARY_PATH=~/tools/neko
 export HAXE_STD_PATH=~/tools/haxe/std
 export PATH=$PATH:~/tools/haxe
@@ -47,5 +47,5 @@ sub() {
 }
 
 if [ "$DISPLAY" ]; then
-	if [ "$TMUX" = "" ]; then tmux; fi
+	if [ "$TMUX" = "" ]; then tmux -2; fi
 fi
