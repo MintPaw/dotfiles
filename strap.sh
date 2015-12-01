@@ -12,7 +12,8 @@ paths=(".oh-my-zsh"
 	".vim/bundle/selection"
 	".vim/bundle/crunch"
 	".vim/bundle/tabular"
-	".vim/bundle/vim-indent-guides")
+	".vim/bundle/vim-indent-guides"
+	".vim/bundle/semantic-highlight")
 	
 gitUrls=("https://github.com/robbyrussell/oh-my-zsh.git"
 	"https://github.com/kien/ctrlp.vim.git"
@@ -26,7 +27,8 @@ gitUrls=("https://github.com/robbyrussell/oh-my-zsh.git"
 	"https://github.com/arecarn/selection.vim.git"
 	"https://github.com/arecarn/crunch.vim.git"
 	"https://github.com/godlygeek/tabular.git"
-	"https://github.com/nathanaelkane/vim-indent-guides.git")
+	"https://github.com/nathanaelkane/vim-indent-guides.git"
+	"https://github.com/jaxbot/semantic-highlight.vim.git")
 
 for ((i=0; i<${#paths[@]}; i++))
 do

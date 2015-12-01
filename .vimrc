@@ -1,11 +1,15 @@
 hi CursorLine term=bold cterm=bold guibg=Grey40
-hi SpecialKey ctermfg=00 guifg=#649A9A
-hi NonText ctermfg=00 guifg=#649A9A
 hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 hi IndentGuidesOdd ctermbg=235
 hi IndentGuidesEven ctermbg=236
 let mapleader = "-"
+
+" Semantic Highlight
 let g:indent_guides_auto_colors = 0
+hi SpecialKey ctermfg=00 guifg=#649A9A
+hi NonText ctermfg=00 guifg=#649A9A
+let g:semanticTermColors = [28,1,2,3,4,5,6,7,25,9,10,34,12,13,14,15,16,125,124,19]
+nmap <Leader>s :SemanticHighlightToggle<cr>
 
 set number
 set showmatch
@@ -89,4 +93,3 @@ com! DiffSaved call s:DiffWithSaved()
 
 execute pathogen#infect()
 Helptags
-IndentGuidesEnable
