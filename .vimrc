@@ -8,8 +8,11 @@ let mapleader = "-"
 let g:indent_guides_auto_colors = 0
 hi SpecialKey ctermfg=00 guifg=#649A9A
 hi NonText ctermfg=00 guifg=#649A9A
-let g:semanticTermColors = [28,1,2,3,4,5,6,7,25,9,10,34,12,13,14,15,16,125,124,19]
+let g:semanticTermColors = [28,1,2,3,4,5,6,7,25,9,10,34,12,13,14,15,125,124,19]
 nmap <Leader>s :SemanticHighlightToggle<cr>
+
+call matchadd('Conceal', 'function', 10, 100, {'conceal': '𝒇'})
+set conceallevel=2
 
 set number
 set showmatch
@@ -54,6 +57,10 @@ imap <Left> <Nop>
 imap <Right> <Nop>
 imap <C-j> <C-n>
 imap <C-k> <C-p>
+" F10 shows syn match groups
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+			\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+			\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 ab \\real\\ ℝ
 ab \\forall\\ ∀
 ab \\in\\ ∈
