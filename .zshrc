@@ -1,4 +1,4 @@
-export ZSH=/home/mintpaw/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 ZSH_THEME="smt"
 
