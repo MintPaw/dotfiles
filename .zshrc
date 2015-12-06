@@ -41,6 +41,7 @@ alias ls='ls --color=auto'
 alias wifi_home='bash ~/sh/connect_home_wifi.sh'
 alias wifi_nmt='bash ~/sh/connect_nmt_wifi.sh'
 alias lock='i3lock'
+alias p='python'
 
 sub() {
 	subl $1 > /dev/null 2>&1 &
