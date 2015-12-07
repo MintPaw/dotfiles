@@ -3,6 +3,9 @@ hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 hi IndentGuidesOdd ctermbg=235
 hi IndentGuidesEven ctermbg=236
 let mapleader = "-"
+execute "set <M-j>=\ej"
+execute "set <M-k>=\ek"
+set statusline=%<%F%h%m%r%h%w%y\ %{&ff}\ %=\ lin:%l\,%L\ col:%c%V\ pos:%o\ ascii:%b\ %P
 
 " Semantic Highlight
 let g:indent_guides_auto_colors = 0
@@ -24,6 +27,10 @@ set cursorline
 set wildmenu
 set autowrite
 set timeoutlen=1000 ttimeoutlen=0
+set laststatus=2
+set autoread
+set scrolloff=7
+set lazyredraw
 
 set incsearch
 
@@ -41,12 +48,13 @@ set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set nolist
 
 imap jj <Esc>
-ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
 nmap <leader><space> :nohlsearch<CR>
 nmap gV `[v`]
 nmap <leader>u :GundoToggle<CR>
+
 nmap j gj
 nmap k gk
+
 nmap <Up> <Nop>
 nmap <Down> <Nop>
 nmap <Left> <Nop>
@@ -55,12 +63,19 @@ imap <Up> <Nop>
 imap <Down> <Nop>
 imap <Left> <Nop>
 imap <Right> <Nop>
+
 imap <C-j> <C-n>
 imap <C-k> <C-p>
-" F10 shows syn match groups
-map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
-			\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
-			\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+
+nmap <M-j> :m. + <cr>
+nmap <M-k> :m. -2 <cr>
+
+map <leader>ss :setlocal spell!<cr>
+map <leader>sn ]s
+map <leader>sp [s
+map <leader>sa zg
+map <leader>s= z=
+
 ab \\real\\ ℝ
 ab \\forall\\ ∀
 ab \\in\\ ∈
