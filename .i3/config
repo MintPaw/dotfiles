@@ -159,3 +159,4 @@ bar {
 focus_follows_mouse no
 exec ~/.i3/start/default.sh
 for_window [class="^BallBrawl$"] floating enable
+for_window [class="^GrapplingHook$"] floating enable
