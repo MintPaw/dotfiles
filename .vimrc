@@ -31,6 +31,7 @@ set laststatus=2
 set autoread
 set scrolloff=7
 set lazyredraw
+set background=dark
 
 set incsearch
 
