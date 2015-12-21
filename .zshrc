@@ -42,6 +42,7 @@ alias wifi_home='bash ~/sh/connect_home_wifi.sh'
 alias wifi_nmt='bash ~/sh/connect_nmt_wifi.sh'
 alias lock='i3lock'
 alias p='python'
+alias createAnim='bash ~/sh/createAnim.sh'
 
 sub() {
 	subl $1 > /dev/null 2>&1 &
