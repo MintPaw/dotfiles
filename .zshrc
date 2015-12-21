@@ -43,6 +43,8 @@ alias wifi_nmt='bash ~/sh/connect_nmt_wifi.sh'
 alias lock='i3lock'
 alias p='python'
 alias createAnim='bash ~/sh/createAnim.sh'
+alias texturepacker='LD_PRELOAD=/usr/lib64/faketime/libfaketime.so.1 FAKETIME="-99999d" ~/tools/TexturePacker/bin/TexturePacker'
+alias texturepackergui='LD_PRELOAD=/usr/lib64/faketime/libfaketime.so.1 FAKETIME="-99999d" ~/tools/TexturePacker/bin/TexturePackerGUI'
 
 sub() {
 	subl $1 > /dev/null 2>&1 &
