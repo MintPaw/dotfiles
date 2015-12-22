@@ -33,6 +33,7 @@ export HAXE_STD_PATH=~/tools/haxe/std
 export PATH=$PATH:~/tools/haxe
 export PATH=$PATH:~/tools/neko
 alias openfl='haxelib run openfl'
+eval $(thefuck --alias)
 
 git config --global push.default simple
 git config --global credential.helper 'cache --timeout=9999'
