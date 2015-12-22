@@ -2,7 +2,8 @@ mkdir -p ~/tools/haxe/lib
 mkdir -p ~/tools/haxe/libgit
 
 libs=("openfl" "openfl-samples" "lime" "format" "hxcpp" "flixel" 
-	"flixel-addons" "flixel-ui" "nape" "hscript" "debugger" "hxtelemetry")
+	"flixel-addons" "flixel-ui" "nape" "hscript" "debugger" "hxtelemetry"
+	"actuate" "BabylonHx" "poly2trihx")
 
 libPaths=("https://github.com/openfl/openfl.git"
 	"https://github.com/openfl/openfl-samples.git"
@@ -15,7 +16,10 @@ libPaths=("https://github.com/openfl/openfl.git"
 	"https://github.com/deltaluca/nape.git"
 	"https://github.com/HaxeFoundation/hscript.git"
 	"https://github.com/HaxeFoundation/hxcpp-debugger"
-	"https://github.com/jcward/hxtelemetry.git")
+	"https://github.com/jcward/hxtelemetry.git"
+	"https://github.com/openfl/actuate.git"
+	"https://github.com/vujadin/BabylonHx.git"
+	"https://github.com/nerik/poly2trihx.git")
 
 for ((i=0; i<${#libs[@]}; i++))
 do
