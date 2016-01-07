@@ -10,7 +10,7 @@ function delete_openfl_exec()
 if [ "$build" = "flash" ]; then
 	echo "flash"
 	function b() {rm -f bin/flash/bin/*.swf; openfl build flash -debug}
-	function r() {google-chrome bin/flash/bin/test.html}
+	function r() {google-chrome-beta --new-window bin/flash/bin/test.html}
 	function bb() {b; r}
 elif [ "$build" = "cpp" ]; then
 	echo "cpp"
