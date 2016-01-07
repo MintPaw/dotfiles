@@ -41,9 +41,9 @@ set foldmethod=indent
 set foldlevelstart=10
 set foldnestmax=10
 
-set tabstop=1
-set softtabstop=1
-set shiftwidth=1
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set colorcolumn=81
 
 set listchars=tab:>-,trail:~,extends:>,precedes:<
