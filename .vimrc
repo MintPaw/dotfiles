@@ -9,7 +9,8 @@ set statusline=%<%F%h%m%r%h%w%y\ %{&ff}\ %=\ lin:%l\,%L\ col:%c%V\ pos:%o\ ascii
 
 " Semantic Highlight
 let g:indent_guides_auto_colors = 0
-hi SpecialKey ctermfg=00 guifg=#649A9A
+" Would hide indent chars if not on line
+" hi SpecialKey ctermfg=00 guifg=#649A9A
 hi NonText ctermfg=00 guifg=#649A9A
 let g:semanticTermColors = [28,1,2,3,4,5,6,7,25,9,10,34,12,13,14,15,125,124,19]
 nmap <Leader>s :SemanticHighlightToggle<cr>
@@ -40,12 +41,12 @@ set foldmethod=indent
 set foldlevelstart=10
 set foldnestmax=10
 
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=1
+set softtabstop=1
+set shiftwidth=1
 set colorcolumn=81
 
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set listchars=tab:>-,trail:~,extends:>,precedes:<
 set nolist
 
 imap jj <Esc>
